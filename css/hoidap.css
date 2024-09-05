@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+.hovaten{
+    background-color: #f1f1f1;
+	text-align: center;
+}
+.hovaten article{
+    width:50%;
+    float:left;
+    background-color:#f0f0f0;
+    padding:1em;
+	text-align: center;
+}
+.hovaten:after{
+    content:"";
+    clear:both;
+    display:table;
+}
+input[type="hovaten"] {
+    width: 500px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    color: black;
+    border-radius: 4px;
+    outline:none;
+    padding: 12px 14px;
+}
+input[type="hovaten"]:focus{
+  width:500px; 
+}
+
+textarea[type="noidung"]{
+    width: 500px;
+    height: 250px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    color: black;
+    border-radius: 4px;
+    outline:none;
+    padding: 12px 14px;
+    background-color: #f0f0f0;
+}
+textarea[type="noidung"]:focus{
+    width: 500px;
+    height: 250px;
+}
+.btn{
+    border: 2px solid gray;
+    background-color: gray;
+    border-radius: 0.25rem;
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.btn:hover{
+    background-color: #000;
+    color: #f0f0f0;
+}
+.btn:after{
+    content:"";
+    clear:both;
+    display:table;
+}

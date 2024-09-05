@@ -1,0 +1,68 @@
+.signupbox{
+    width: 320px;
+    height: 530px;
+    background: #000000;
+    color: #F1F1F1;
+    top: 55%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-40%, -30%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.avatar{
+    width:95px;
+    height: 95px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+.signupbox h1{
+    margin:0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.signupbox p{
+    margin:0;
+    padding: 0;
+    font-weight: bold;
+}
+.signupbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.signupbox input[type="username"], input[type="password"], input[type="hovaten"], input[type="sdt"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #F1F1F1;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #F1F1F1;
+    font-size: 16px;
+}
+.signupbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color:#F1F1F1;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.signupbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color:#000;
+}
+.signupbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+.signupbox a:hover{
+    color:#ffc107;
+}

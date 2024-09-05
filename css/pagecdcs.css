@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+.chinhsach{
+    background-color: #f1f1f1;
+	text-align: center;
+}
+.chinhsach article{
+    width:50%;
+    float:left;
+    background-color:#f0f0f0;
+    padding:1em;
+	text-align: center;
+}
+.chinhsach::after{
+    content:"";
+    clear:both;
+    display:table;
+}

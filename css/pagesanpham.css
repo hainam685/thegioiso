@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+.brand{
+    text-align: center;
+    background-color: rgb(202, 200, 200);
+}
+.brand article{
+    width:12.5%;
+    float:left;
+    padding:1em;
+    text-align: center;
+    position: relative;
+    background-color: rgb(202, 200, 200);
+}
+
+.brandpk{
+    text-align: center;
+    background-color: rgb(202, 200, 200);
+}
+.brandpk article{
+    width:14%;
+    float:left;
+    /*border: 1px solid black;*/
+    padding:1em;
+    text-align: center;
+    position: relative;
+    background-color: rgb(202, 200, 200);
+}
+
+/*
+.electro-compact .woocommerce-breadcrumb {
+    margin-bottom: 1.6em;
+}
+.woocommerce-breadcrumb {
+    margin-top: 1.786em;
+    margin-bottom: 3.571em;
+}
+*/
+
+.button{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+.button li{
+    display:inline-block;
+	position: relative;
+}
+.button li a{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    padding:10px 1px;
+	font-family: "Segoe UI", "DejaVu Sans", "Trebuchet MS", "sans-serif";
+}
+.button li a:hover{
+    background-color: #F1F1F1;
+	text-decoration: none;
+	color: black;
+}
+
+.cost{
+    text-align: center;
+    background-color: rgb(202, 200, 200);
+}
+.cost article{
+    width:20%;
+    float:left;
+    padding:1em;
+    text-align: center;
+    position: relative;
+    background-color: rgb(202, 200, 200);
+}
+.cost a{
+    cursor: pointer;
+    text-decoration: none;
+    color: blue;
+}
+.cost a:hover{
+    color: red;
+}
+
+.button-num{
+    border: 2px solid gray;
+    background-color: gray;
+    color: black;
+    border-radius: 0.25rem;
+    width: 25px;
+    height: 25px;
+    font-size: 18px;
+}
+.button-num:hover{
+    border: 2px solid black;
+    background-color: #000;
+    color: #f0f0f0;
+}
+
+.button_num{
+	text-align: center;
+}
+.button_num ul{
+    margin:0;
+    padding-bottom: 20px;
+    list-style-type:none;
+}
+.button_num li{
+    display:inline-block;
+	position: relative;
+}

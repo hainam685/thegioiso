@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+.half_half{
+    background-color: #f1f1f1;
+	text-align: center;
+}
+.half_half article{
+    width:50%;
+    float:left;
+    background-color:#f0f0f0;
+    padding:1em;
+	text-align: center;
+}
+.half_half:after{
+    content:"";
+    clear:both;
+    display:table;
+}
+
+.qua-tang {
+    margin-right: 3em;
+    background: url(../images/bg-quatang.png) no-repeat scroll bottom right 0 #e8f8ee;
+    color: #30a43b;
+    padding: 10px 10px 10px ;
+    margin-bottom: 9px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+.qua-tang ul{
+    margin-left: -1.5em;
+}
+.qua-tang li{
+    font-size: 24px;
+}
+
+.thongso{
+    background-color: #f1f1f1;
+	text-align: center;
+}
+.thongso article{
+    width:33.33%;
+    float:left;
+    background-color:#f0f0f0;
+    padding:1em;
+	text-align: center;
+}
+.thongso:after{
+    content:"";
+    clear:both;
+    display:table;
+}
